@@ -5,8 +5,8 @@ const Display = props => {
 
   return (
     <div className="display">
-      <h2>Strikes</h2>
-      <h2>Balls</h2>
+      <h2>Strikes {atBat.strikes}</h2>
+      <h2>Balls {atBat.balls}</h2>
     </div>
   );
 };
